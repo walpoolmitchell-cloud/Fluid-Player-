@@ -36,3 +36,15 @@ google-services.json
 https://github.com/fluid-player/fluid-player/pull/441#pullrequestreview-515628516
 
 https://github.com/username/repo.git
+
+# Clone a repository
+git clone https://github.com/username/repo.git
+
+# Make changes to files, then stage them
+git add .
+
+# Commit your changes
+git commit -m "Description of what you changed"
+
+# Push to GitHub
+git push origin main
