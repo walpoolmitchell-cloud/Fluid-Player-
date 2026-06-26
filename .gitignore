@@ -11,6 +11,18 @@ local.properties
 # Android Studio generated files and folders
 captures/
 .externalNativeBuild/
+
+# Clone a repository
+git clone https://github.com/username/repo.git
+
+# Make changes to files, then stage them
+git add .
+
+# Commit your changes
+git commit -m "Description of what you changed"
+
+# Push to GitHub
+git push origin main
 .cxx/
 *.aab
 *.apk
