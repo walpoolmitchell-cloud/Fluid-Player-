@@ -12,6 +12,25 @@ local.properties
 captures/
 .externalNativeBuild/
 
+# Navigate to your repo
+cd Fluid-Player-
+
+# Fetch the latest changes
+git fetch origin
+
+# Switch to main branch
+git checkout main
+
+# Merge the PR branch
+git merge origin/walpoolmitchell-cloud-patch-1
+
+# Push the merged changes
+git push origin main
+
+# (Optional) Delete the feature branch
+git branch -d walpoolmitchell-cloud-patch-1
+git push origin --delete walpoolmitchell-cloud-patch-1
+
 # Clone a repository
 git clone https://github.com/username/repo.git
 
