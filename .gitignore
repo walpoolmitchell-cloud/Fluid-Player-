@@ -11,6 +11,37 @@ local.properties
 # Android Studio generated files and folders
 captures/
 .externalNativeBuild/
+
+# Navigate to your repo
+cd Fluid-Player-
+
+# Fetch the latest changes
+git fetch origin
+
+# Switch to main branch
+git checkout main
+
+# Merge the PR branch
+git merge origin/walpoolmitchell-cloud-patch-1
+
+# Push the merged changes
+git push origin main
+
+# (Optional) Delete the feature branch
+git branch -d walpoolmitchell-cloud-patch-1
+git push origin --delete walpoolmitchell-cloud-patch-1
+
+# Clone a repository
+git clone https://github.com/username/repo.git
+
+# Make changes to files, then stage them
+git add .
+
+# Commit your changes
+git commit -m "Description of what you changed"
+
+# Push to GitHub
+git push origin main
 .cxx/
 *.aab
 *.apk
@@ -33,3 +64,18 @@ google-services.json
 # Android Profiling
 *.hprof
 63f7ca318a5a2b34db6b31738198e3bd59f21c4bhttps://github.com/fluid-player/fluid-player/pull/441#pullrequestreview-515628516
+https://github.com/fluid-player/fluid-player/pull/441#pullrequestreview-515628516
+
+https://github.com/username/repo.git
+
+# Clone a repository
+git clone https://github.com/username/repo.git
+
+# Make changes to files, then stage them
+git add .
+
+# Commit your changes
+git commit -m "Description of what you changed"
+
+# Push to GitHub
+git push origin main
